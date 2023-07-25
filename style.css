@@ -1,0 +1,80 @@
+/* #019f55 */
+
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing : border-box;
+}
+body{
+    background-color: #002339;
+    color : #ffff;
+    display : flex;
+    align-items : center;
+    justify-content: flex-start;
+    height : 100vh;
+}
+.container{
+    margin-left : 10%;
+}
+h1{
+    font-size : 2.5rem;
+    line-height : 1.5;
+}
+h1:nth-child(2){
+    color : #019f55;
+    border-bottom: 4px solid #019f55;
+    width : fit-content;
+}
+.main{
+    margin-top : 20px;
+    margin-bottom : 30px;
+}
+#password{
+    background-color: #fff;
+    border-radius: 5px 0 0 5px;
+    padding : 16px;
+    font-size : 1rem;
+    border : none;
+    outline : none;
+    min-width : 30vw;
+}
+#copyBtn{
+    background-color: #fff;
+    border-radius: 0 5px 5px 0;
+    padding : 10px;
+    position : relative;
+    top : 6px;
+    right : 5px;
+    outline : none;
+    border : none;
+    cursor : pointer;
+    transition : 0.5s ease;
+}
+#copyBtn:hover{
+    background-color: rgb(192, 181, 181);
+}
+#copy{
+    height : 26px;
+    width : 25px;
+}
+
+#generateBtn{
+    background-color : #019f55;
+    border-radius: 5px;
+    color : #fff;
+    padding : 10px;
+    cursor : pointer;
+    font-size : 1rem;
+    border : 2px solid #019f55;
+    outline : none;
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    gap : 10px;
+}
+#generateBtn img{
+    height : 30px;
+}
+#generateBtn p{
+    display : inline-block;
+}
